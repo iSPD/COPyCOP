@@ -12,4 +12,5 @@
   <br>Pre-Processing을 거친 문장들을 10만 문장 단위로 training하여 생성한 모델파일에 표절 의심 문장을 입력하여 문장 유사도를 측정하고 대상 문장의 ID를 출력</br>
   * TF-IDF
   <br>doc2vec을 거친 테스트 문장과 대상 문장을 맞춤법 교정. 형태소별 분리 후 조사 제거의 전처리를 거쳐 TF-IDF 로 입력하여 vectorization 후 단어 유사도를 측정</br>
-  <img width="50%" src="https://user-images.githubusercontent.com/131632610/233914838-5da012c5-76d6-4588-a0b3-3338685b4b83.jpg"/>
+  <hr></hr>
+  <img width="80%" src="https://user-images.githubusercontent.com/131632610/233915448-066283be-c6bc-41dd-8da4-10e0620d7060.jpg"/>
