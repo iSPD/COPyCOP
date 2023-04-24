@@ -26,6 +26,7 @@
 <br>-	공모전 이미지 데이터 가공(1장 당 82개 가공 이미지 생성)
 <br>-	공모전 이미지를 Torchvision 라이브러리를 이용하여 Padding, Resize, Crop, Transforms, Blur, Rotation, Sharpness 등을 적용.
 <br><82개로 가공한 사진>
+<br><img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B0%80%EA%B3%B5.png"/>
  
 <br>2.	이미지 트레이닝
 <br>-	Tensorflow_hub, Tf.kera 라이브러리를 이용하여, mobilenet_v3_large_100_244 모델 로딩 후, 100개의 클래스 씩 트레이닝(100개 클래스 모델 x N)
@@ -43,6 +44,7 @@
 <br>값 및 Tagging(공모작 명).
 <br>-	Infernece Time : 1장당 5ms
 <br><Vgg19-block5-conv2-unpooling-encoder>
+<br><img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/encoder.png?raw=true"/>
  
 <br>4. 이미지 비교(Inference)
 <br>-	신청작 이미지를 아래의 모델에 추론(Inference)
@@ -58,3 +60,4 @@
 <br>  기준 수치 이상의 사진 추출.
   
 <br>COPyCOP 구성도
+<br><img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B5%AC%EC%84%B1%EB%8F%84.png"/>
