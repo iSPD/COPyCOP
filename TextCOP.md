@@ -20,5 +20,5 @@
   <br></br>
   <div align="center">
   <img width="80%" src="https://user-images.githubusercontent.com/131632610/233915448-066283be-c6bc-41dd-8da4-10e0620d7060.jpg"/>
-  <br><표 2. doc2vec 오류보정을 위한 TF-IDF 단어유사도 보정 방식>
+  <br><표 1. doc2vec 오류보정을 위한 TF-IDF 단어유사도 보정 방식>
   </div>
