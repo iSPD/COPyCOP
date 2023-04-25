@@ -3,13 +3,34 @@
 - 공모전 표절, 도용 검증을 위한, 이미지, 텍스트 유사도 분석 AI 솔루션
 
   - **ImageCOP**
+
+  <div align="left">
+  <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/imageCompare.png"/>
+  </div>
+
+  <br>
+  
   - **TextCOP**
+  
+  <div align="left">
+  <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/textCompare2.png"/>
+  </div>
+  
+  <br>
 
-<div align="center">
-<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B5%AC%EC%84%B1%EB%8F%84.png"/>
+  - **전체구성도**
 
-**<그림 1. COPyCOP 구성도>**
-</div>
+  <div align="left">
+  <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B5%AC%EC%84%B1%EB%8F%84.png"/>
+  </div>
+
+---
+
+## 🖥️ **실제 활용 사례**
+
+<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase8.png"/>
+<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase7.png"/>
+<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase6.png"/>
 
 ---
 
@@ -72,7 +93,7 @@
 <div align="center">
 <img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B0%80%EA%B3%B5.png"/>
  
-**<그림 2. 82개로 가공한 사진>>**
+**<그림 1. 82개로 가공한 사진>>**
 </div>
  
 **2.	이미지 트레이닝**
@@ -100,7 +121,7 @@
 <div align="center">
 <img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/encoder.png?raw=true"/>
  
-**<그림 3. Vgg19-block5-conv2-unpooling-encoder>**
+**<그림 2. Vgg19-block5-conv2-unpooling-encoder>**
 </div>
  
 **4. 이미지 비교(Inference)**
@@ -141,7 +162,7 @@ doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리�
   
   <div align="center">
   <img width="60%" src="https://github.com/iSPD/COPyCOP/blob/main/images/text-preprocess.JPG"/>
-  <br><b><그림 4. doc2vec 모델을 위한 pre-precessing 적용></b>
+  <br><b><그림 3. doc2vec 모델을 위한 pre-precessing 적용></b>
   </div>
 - Sentence Similarity
     
