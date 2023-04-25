@@ -8,7 +8,7 @@
 <div align="center">
 <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B5%AC%EC%84%B1%EB%8F%84.png"/>
 
-**<그림 3. COPyCOP 구성도>**
+**<그림 1. COPyCOP 구성도>**
 </div>
 
 ---
@@ -74,7 +74,7 @@
 <div align="center">
 <img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B0%80%EA%B3%B5.png"/>
  
-**<그림 1. 82개로 가공한 사진>>**
+**<그림 2. 82개로 가공한 사진>>**
 </div>
  
 **2.	이미지 트레이닝**
@@ -102,7 +102,7 @@
 <div align="center">
 <img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/encoder.png?raw=true"/>
  
-**<그림 2. Vgg19-block5-conv2-unpooling-encoder>**
+**<그림 3. Vgg19-block5-conv2-unpooling-encoder>**
 </div>
  
 **4. 이미지 비교(Inference)**
@@ -145,7 +145,7 @@ doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리�
   
   <div align="center">
   <img width="60%" src="https://github.com/iSPD/COPyCOP/blob/main/images/text-preprocess.JPG"/>
-  <br><그림 1. doc2vec 모델을 위한 pre-precessing 적용>
+  <br>**<그림 4. doc2vec 모델을 위한 pre-precessing 적용>**
   </div>
 - Sentence Similarity
     
@@ -161,7 +161,7 @@ doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리�
 
   <div align="center">
   <img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/tfidf.jpg"/>
-  <br><표 1. doc2vec 오류보정을 위한 TF-IDF 단어유사도 측정>
+  <br>**<표 1. doc2vec 오류보정을 위한 TF-IDF 단어유사도 측정>**
   </div>
     
 ### **텍스트 표절 유사도 AI 솔루션 테스트**
@@ -192,4 +192,5 @@ doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리�
   
   테스트 파일을 doc2vec 모델과 TF-IDF에 입력하여 문장 유사도, 단어 유사도를 측정 후 두 수치의 평균값이 일정 기준 이상일 때 표절 의심으로 판정
   
-  
+### **사용 방법**
+- Contact : ispd_sally@outlook.kr(정영선)
