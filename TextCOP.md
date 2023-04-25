@@ -1,9 +1,4 @@
 # COPyCOP
-이미지⋅텍스트(문장) 표절 유사도 검증이 동시⋅병행 가능한 AI 표절 검출 시스템
-
-- <b>ImageCOP</b> : 객체 추적 인식 AI 모델의 다중 적용 및 VGG19 벡터 비교를 통한 이미지 표절 검출 및 검출 오류 보정
-  <br> &#8226; Python 3.7
-  <br> &#8226; VGG19
 - <b>TextCOP</b> : doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리즘으로 텍스트 유사도 오류 보정
   <br> &#8226; Python 3.7
   <br> &#8226; Sentence Pre-Processing
