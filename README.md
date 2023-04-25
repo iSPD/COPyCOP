@@ -7,7 +7,7 @@
   <br>
 
   <div align="left">
-  <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/imageCompare.png"/>
+  <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/imageCompare2.png"/>
   </div>
 
   <br>
@@ -34,9 +34,7 @@
 
 ## 🖥️ **실제 활용 사례**
 
-<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase8.png"/>
-<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase7.png"/>
-<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase6.png"/>
+<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase8.png"/>　<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase7.png"/>　<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase6.png"/>
 
 ---
 
