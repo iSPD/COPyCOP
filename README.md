@@ -4,6 +4,8 @@
 
   - **ImageCOP**
 
+  <br>
+
   <div align="left">
   <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/imageCompare.png"/>
   </div>
@@ -11,6 +13,8 @@
   <br>
   
   - **TextCOP**
+
+  <br>
   
   <div align="left">
   <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/textCompare2.png"/>
@@ -19,6 +23,8 @@
   <br>
 
   - **전체구성도**
+
+  <br>
 
   <div align="left">
   <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B5%AC%EC%84%B1%EB%8F%84.png"/>
