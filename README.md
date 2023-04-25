@@ -133,7 +133,7 @@ doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리�
 
 -	scikit-learn
   
-### **개발 모듈(Dependency)**
+### **개발 모듈**
 - Sentence Pre-Processing
   
   - 각 문장의 글자가 아닌 요소들을 제거한 정제된 문장 형태로 변환. 
