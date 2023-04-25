@@ -190,3 +190,17 @@ doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리�
   
 ### **사용 방법**
 - Contact : ispd_sally@outlook.kr(정영선)
+
+---
+## 알아두어야 할 사항
+- [pyarmor](https://github.com/dashingsoft/pyarmor) 라이브러리를 이용하여 암호화 함
+
+---
+## LICENSE
+- [MIT](https://github.com/iSPD/COPyCOP/blob/main/LICENSE)
+
+---
+## 문의 사항
+- (주)iSPD 정한별 대표
+- ispd_paul@outlook.kr
+- 010-9930-1791
