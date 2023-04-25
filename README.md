@@ -145,7 +145,7 @@ doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리�
   - ID, 정제된문장 쌍으로 구성된 데이터를 doc2vec 모델 생성을 위한 Training Dataset으로 사용.
   
   <div align="center">
-  <img width="60%" src="https://user-images.githubusercontent.com/131632610/233918532-7df64c0a-34c3-47fc-b797-1909061d6e95.JPG"/>
+  <img width="60%" src="https://github.com/iSPD/COPyCOP/blob/main/images/text-preprocess.JPG"/>
   <br><그림 1. doc2vec 모델을 위한 pre-precessing 적용>
   </div>
 - Sentence Similarity
@@ -161,8 +161,8 @@ doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리�
     - TF-IDF 로 입력하여 vectorization 후 단어 유사도를 측정
 
   <div align="center">
-  <img width="80%" src="https://user-images.githubusercontent.com/131632610/233915448-066283be-c6bc-41dd-8da4-10e0620d7060.jpg"/>
-  <br><표 1. doc2vec 오류보정을 위한 TF-IDF 단어유사도 보정 방식>
+  <img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/tfidf.jpg"/>
+  <br><표 1. doc2vec 오류보정을 위한 TF-IDF 단어유사도 측정>
   </div>
     
 ### **텍스트 표절 유사도 AI 솔루션 테스트**
