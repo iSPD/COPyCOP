@@ -40,7 +40,7 @@
 
 ## 🖥️ **실제 활용 사례**
 
-<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase8.png"/>　<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase7.png"/>　<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase6.png"/>
+<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase8.png"/>　<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase6.png"/>　<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase7.png"/>
 
 ---
 
