@@ -61,8 +61,6 @@
 
 -	`Spearmanr`(opencv)
 
----
-
 ### **개발 내용**
 
 **1.	이미지 데이터 가공**
@@ -115,8 +113,6 @@
 
 -	**Image Feature Extraction** : Vgg19-block5-conv2-unpooling-encoder에 신청작 이미지의 Feature Vector를 추출. 미리 추출된 수상작의 Feature Vector들과 Spearmanr알고리즘을  이용하여 절대수치를 산정 후, 기준 수치 이상의 사진 추출
   
----
-
 ### **사용 방법**
 - Contact : ispd_daniel@outlook.kr(김경훈)
   
