@@ -32,6 +32,12 @@
 
 ---
 
+## **제품 성능**
+
+<img width="60%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EC%8B%9C%ED%97%98%EA%B2%B0%EA%B3%BC.png"/>　
+
+---
+
 ## 🖥️ **실제 활용 사례**
 
 <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase8.png"/>　<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase7.png"/>　<img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/useCase6.png"/>
