@@ -174,7 +174,17 @@ doc2vec 모델을 활용한 한국어 텍스트 표절 검출, TF-IDF 알고리�
 - 학습
   
   Pre-Processing을 거친 문장들을 10만 문장 단위로 Training & 모델 생성
-  
+    ```Python
+    max_epochs = 5000
+    vec_size = 100
+    alpha = 0.025
+
+    model = Doc2Vec(tagged_data,vector_size=vec_size,
+                    alpha=alpha,
+                    min_alpha=0.00025,
+                    min_count=4,
+                    dm=1,window=10,epochs=max_epochs)
+    ```
 - 테스트 데이터셋
   
   학습 데이터셋 중 무작위로 M개 문장 추출 후 100%표절, 1 ~ N개 단어 제거, 1 ~ N개 단어 교체 방법으로 변형 후 파일에 저장 및 정답 파일에 해당 ID 기록하여 테스트 데이터셋 구축 진행 
