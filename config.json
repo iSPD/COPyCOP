@@ -1,0 +1,16 @@
+{
+    "config": {
+        "image": {
+            "gpu": "0",
+            "similarity-ranking": "10",
+            "output_path": "./copycop_release/output_image",
+            "output_json": "output_image.json",
+            "data_root": "./copycop_release/imageCOP/datas"
+        },
+        "text": {
+            "output_path": "./copycop_release/output_text",
+            "output_json": "output_text.json",
+            "data_root": "./copycop_release/textCOP/dataset/dataset03"
+        }
+    }
+}
