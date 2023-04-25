@@ -10,13 +10,13 @@
 
 ---
 
-### **개발 기간**
+## **개발 기간**
 
 - 2022년 4월 1일 ~ 2022년 10월 31일
 
 ---
 
-### **개발 환경** 
+## **개발 환경** 
 
 -	CPU : Ubuntu 20.04.3 LTS
 
@@ -26,11 +26,14 @@
   
 ---
 
-### **개발 언어** 
+## **개발 언어** 
 
 -	`Python 3.7.x`
 
 ---
+
+## **ImageCOP** 
+
 
 ### **개발 라이브러리** 
 
@@ -119,3 +122,6 @@
  -	**Image Feature Extraction** : Vgg19-block5-conv2-unpooling-encoder에 신청작 이미지의 Feature Vector를 추출.
  
   미리 추출된 수상작의 Feature Vector들과 Spearmanr알고리즘을 이용하여 절대수치를 산정 후, 기준 수치 이상의 사진 추출
+  
+  
+  ## **TextCOP** 
