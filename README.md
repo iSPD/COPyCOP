@@ -11,7 +11,7 @@
   <br>
 
   <div align="left">
-  <img width="60%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B5%AC%EC%84%B1%EB%8F%84.png"/>
+  <img width="45%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B5%AC%EC%84%B1%EB%8F%84.png"/>
   </div>
 
 ---
