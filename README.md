@@ -2,32 +2,16 @@
 
 - 공모전 표절, 도용 검증을 위한, 이미지, 텍스트 유사도 분석 AI 솔루션
 
-  - **ImageCOP**
-
-  <br>
-
-  <div align="left">
-  <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/imageCompare2.png"/>
-  </div>
-
-  <br>
-  
-  - **TextCOP**
-
-  <br>
-  
-  <div align="left">
-  <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/textCompare2.png"/>
-  </div>
-  
-  <br>
+|**ImageCOP**|**TextCOP**|
+|:---:|:---:|
+|<img width="100%" src="https://github.com/iSPD/COPyCOP/blob/main/images/imageCompare2.png"/>|<img width="100%" src="https://github.com/iSPD/COPyCOP/blob/main/images/textCompare2.png"/>|
 
   - **전체구성도**
 
   <br>
 
   <div align="left">
-  <img width="30%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B5%AC%EC%84%B1%EB%8F%84.png"/>
+  <img width="60%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B5%AC%EC%84%B1%EB%8F%84.png"/>
   </div>
 
 ---
