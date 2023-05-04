@@ -127,6 +127,45 @@
 -	**Image Classification** : Crop된 이미지를 트레이닝 된 N개의 mobilenet_v3_large_100_244 모델에 신청작 이미지를 추론하여 각각 모델에서 Score가 가장 높은 사진 추출
 
 -	**Image Feature Extraction** : Vgg19-block5-conv2-unpooling-encoder에 신청작 이미지의 Feature Vector를 추출. 미리 추출된 수상작의 Feature Vector들과 Spearmanr알고리즘을  이용하여 절대수치를 산정 후, 기준 수치 이상의 사진 추출
+
+### 코드 예제
+[COPyCOP.py](https://github.com/iSPD/COPyCOP/blob/main/COPyCOP.py)
+```
+def COPyCOP(jsonData):
+    
+    return_dict1 = multiprocessing.Queue()
+    return_dict2 = multiprocessing.Queue()
+
+    ...
+
+    elif jsonTitle == 'similarity-in':
+
+        typeList = readJsonType(json_dict[jsonTitle])
+
+        p1_detected = False
+        p2_detected = False
+
+        if 'IMG' in typeList:
+            print('Inference IMG is exist')
+
+            imageNames, uuids = readJsonForImage(json_dict, jsonTitle)
+            inputData = [imageNames, uuids]
+
+            p1 = multiprocessing.Process(target=imageCompare, args=(inputData, config, return_dict1))
+            p1.start()
+            p1_detected = True
+        if 'TXT' in typeList:
+            print('Inference TXT is exist')
+            text_data_root = config.get('config')['text']['data_root']   #'./copycop/textCOP/dataset/dataset02'
+            if parseJsonForText(json_dict, text_data_root) == True:
+                #p2 = multiprocessing.Process(target=TextSimilarity, args=(json_dict, './copycop_release/textCOP/dataset/dataset02', return_dict2))
+                p2 = multiprocessing.Process(target=TextSimilarity, args=(json_dict, config, return_dict2))
+                p2.start()
+                p2_detected = True
+                
+    ...        
+
+```
   
 ### **사용 방법**
 - Contact : ispd_daniel@outlook.kr(김경훈)
