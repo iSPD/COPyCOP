@@ -115,6 +115,8 @@
 -	`EarlyStopping 적용` : Epoch의 10%동안 Loss율이 변화가 없으면 종료, 대략 20Epoch에서 종료
 
 -	`트레이닝 속도` : 지포스 RTX 3090 D6 24GB기준 20분 내외
+  
+- 1천개 트레이닝한 Validataion Accuracy 대비 15%성능 개선
 
 **3.	이미지 특징 추출(Feature Extraction)**
 
