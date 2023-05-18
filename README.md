@@ -80,6 +80,12 @@
 
 -	`Spearmanr`(opencv)
 
+### 데이터셋
+
+- ImageNet(Pre-trained)
+
+- Selenium 기반 빅데이터 크롤링으로 4백만장의 공모전 데이터셋 구축
+
 ### **개발 내용**
 
 **1.	이미지 데이터 가공**
