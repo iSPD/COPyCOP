@@ -94,6 +94,8 @@
 
 -	공모전 이미지를 Torchvision 라이브러리를 이용하여 Padding, Resize, Crop, Transforms, Blur, Rotation, Sharpness 등을 적용.
 
+- 가공 전 대비 Accuracy **13%**향상
+
 <div align="center">
 <img width="80%" src="https://github.com/iSPD/COPyCOP/blob/main/images/%EA%B0%80%EA%B3%B5.png"/>
  
@@ -138,13 +140,13 @@
   
 -	**Image Classification** : Crop된 이미지를 트레이닝 된 N개의 mobilenet_v3_large_100_244 모델에 신청작 이미지를 추론하여 각각 모델에서 Score가 가장 높은 사진 추출
    
-    - Crop안 한 이미지 전체 1회 비교 대비 20%개선
+    - Crop안 한 이미지 전체 1회 비교 대비 **20%**개선
 
 -	**Image Feature Extraction** : Vgg19-block5-conv2-unpooling-encoder에 신청작 이미지의 Feature Vector를 추출. 미리 추출된 수상작의 Feature Vector들과 Spearmanr알고리즘을  이용하여 절대수치를 산정 후, 기준 수치 이상의 사진 추출
  
-    - 100,352개의 Vector추출하여 Feature Representation 향상(MobileNet Vector 1,280개 대비 78배)
+    - 100,352개의 Vector추출하여 **Feature Representation** 향상(MobileNet Vector 1,280개 대비 **78배**)
   
-    - Spearmanr : Pearson, Kendall과 같은 상관계수 대비 Accuracy 20%개선
+    - **Spearmanr** : Pearson, Kendall과 같은 상관계수 대비 Accuracy **20%**개선
 
 ### 코드 예제
 [COPyCOP.py](https://github.com/iSPD/COPyCOP/blob/main/COPyCOP.py)
